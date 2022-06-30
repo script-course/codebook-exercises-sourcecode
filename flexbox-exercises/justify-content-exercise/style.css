@@ -1,0 +1,40 @@
+body {
+    border: 0;
+    margin: 0;
+    width:450px;
+    height: 250px; 
+}
+    
+.container {
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+    
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: dodgerblue;
+    display: inline-block;
+}
+    
+.flexstart {
+    justify-content: flex-start;
+}
+    
+.flexend {
+    justify-content: flex-end;
+}
+    
+.center {
+    justify-content: center;
+}
+    
+.spacearound {
+    justify-content: space-around;
+}
+    
+.spacebetween {
+    justify-content: space-between;
+}
+   
